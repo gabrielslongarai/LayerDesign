@@ -27,7 +27,7 @@ namespace LayerDesign.Entities
 
             return $"Basic Payment: {BasicPayment:F2}" +
                    $"\nTax: {Tax:F2}" +
-                   $"\nTotalPayment {TotalPyament:F2}";
+                   $"\nTotal Payment: {TotalPyament:F2}";
 
         }
     }

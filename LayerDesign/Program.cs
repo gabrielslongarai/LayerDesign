@@ -28,7 +28,7 @@ namespace Program
             double pricePerDay = double.Parse(Console.ReadLine());
 
             CarRental carRental = new(start, finish, new Vehicle(model));
-            RentalService rentalService = new(pricePerHour, pricePerDay);
+            RentalService rentalService = new(pricePerHour, pricePerDay, new BrazilTaxService());
 
             rentalService.ProcessInvoice(carRental);
 

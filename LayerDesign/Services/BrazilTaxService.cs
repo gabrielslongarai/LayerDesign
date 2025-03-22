@@ -4,7 +4,7 @@ using LayerDesign.Entities;
 
 namespace LayerDesign.Services
 {
-    class BrazilTaxService
+    class BrazilTaxService : ITaxService
     {
         public double Tax(double amount)
         {
